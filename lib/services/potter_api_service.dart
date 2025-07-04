@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:math';
 import 'package:http/http.dart' as http;
 import '../models/character_model.dart';
 
@@ -10,6 +11,7 @@ class PotterApiService {
     if (response.statusCode == 200) {
       final jsonData = json.decode(response.body);
       final List data = jsonData['data'];
+      //log(response.statusCode);
       return data.map((item) => Character.fromJson(item)).toList();
     } else {
       throw Exception('Failed to load characters');
