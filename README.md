@@ -8,3 +8,10 @@
 - **Información detallada**: Accede a fichas completas con datos relevantes extraídos directamente desde la API PotterDB.
 - **Personalización por preferencias**: Personaliza tu experiencia según tu casa, hechizos, pociones y películas favoritas.
 - **Persistencia de datos**: Toda la información de los usuarios se guardará en sus dispositivos para mantener sus elementos preferidos.
+- **Minijuego de Quiz**: ¿Crees saber todo del universo de Harry Potter? Pon a prueba tus conocimientos jugando a nuestra modalidad de preguntas extraídas de PotterDB.
+
+## Implementaciones técnicas
+1. *Paquetes*
+  - shared_preferences.
+  - provider.
+  - flutter_svg
