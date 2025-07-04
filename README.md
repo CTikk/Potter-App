@@ -10,8 +10,10 @@
 - **Persistencia de datos**: Toda la información de los usuarios se guardará en sus dispositivos para mantener sus elementos preferidos.
 - **Minijuego de Quiz**: ¿Crees saber todo del universo de Harry Potter? Pon a prueba tus conocimientos jugando a nuestra modalidad de preguntas extraídas de PotterDB.
 
-## Implementaciones técnicas
-1. *Paquetes*
-  - shared_preferences.
-  - provider.
-  - flutter_svg
+# Estructura del Proyecto
+
+lib/
+├── pages/ # Contiene las diferentes pantallas de la aplicación (Home, Perfil, Detalles, etc.)
+├── services/ # Maneja la lógica de conexión con APIs, como las solicitudes a PotterDB
+├── provider/ # Almacena la lógica de estado y gestión de datos mediante Provider
+├── models/ # Contiene todas las clases del proyecto que permiten la modularidad y recibimiento de la información desde la API.
