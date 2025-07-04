@@ -12,8 +12,8 @@
 
 # Estructura del Proyecto
 
-lib/
-pages/ # Contiene las diferentes pantallas de la aplicación (Home, Perfil, Detalles, etc.)
-services/ # Maneja la lógica de conexión con APIs, como las solicitudes a PotterDB
-provider/ # Almacena la lógica de estado y gestión de datos mediante Provider
-models/ # Contiene todas las clases del proyecto que permiten la modularidad y recibimiento de la información desde la API.
+- lib/
+  - pages/ Contiene las diferentes pantallas de la aplicación (Home, Perfil, Detalles, etc.)
+  - services/ Maneja la lógica de conexión con APIs, como las solicitudes a PotterDB
+  - provider/ Almacena la lógica de estado y gestión de datos mediante Provider
+  - models/ Contiene todas las clases del proyecto que permiten la modularidad y recibimiento de la información desde la API.
